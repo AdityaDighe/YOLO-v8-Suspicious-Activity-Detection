@@ -6,6 +6,12 @@ A StreamLit user interface is made based on python script to show the efficiency
 
 The below set of images show the implementation of abandoned object detection based on YOLOv8. Here is a drop and drop graphical pointer user interface wherein a video is fed directly, at the moment this project is made on the basis video input manually, but the future scope lies by putting a video stream using streaming application like apache kafka or web-sockets(but may not be so useful).
 
+This is the proposed full product architecture model
+![image](https://github.com/AdityaDighe/YOLO-v8-Suspicious-Activity-Detection/assets/98305705/a28f0958-acad-49e9-8830-bbd2535bca21)
+
+This is its ERD diagram for the product architecture
+![image](https://github.com/AdityaDighe/YOLO-v8-Suspicious-Activity-Detection/assets/98305705/7b2016e6-5bd7-49b6-8f0a-2eef5f596a94)
+
 # Abandoned Object Detection
 The logic behind this is that once the distance between the person and bag which are highlighted as the objects to detected in the coco.txt file of the YOLOv8 tracker, it only detects these two objects and once the two get apart by a particular pixels it flags it as an adandoned object as shown in the screenshots below.
 
@@ -37,3 +43,25 @@ The model used for this project is YOLOv8, which is a pretrained object detectio
 ![image](https://github.com/AdityaDighe/YOLO-v8-Suspicious-Activity-Detection/assets/98305705/d0cd6410-d666-47fc-9568-be404093f42a)
 
 ![image](https://github.com/AdityaDighe/YOLO-v8-Suspicious-Activity-Detection/assets/98305705/65e78df0-1b79-4ef9-940a-152dcf7e0dc8)
+
+precision analysis based on the custom dataset
+![image](https://github.com/AdityaDighe/YOLO-v8-Suspicious-Activity-Detection/assets/98305705/6ca82901-00f1-4849-b796-447891f0e712)
+
+confusion matrix based on the custom dataset
+![image](https://github.com/AdityaDighe/YOLO-v8-Suspicious-Activity-Detection/assets/98305705/e2073a0b-e69d-41b6-b0f1-84c8b38131ef)
+
+# Product Results
+These are the results of the model build
+
+![image](https://github.com/AdityaDighe/YOLO-v8-Suspicious-Activity-Detection/assets/98305705/721fa70b-5a63-41d4-9fdb-cd35d24876b0)
+
+![image](https://github.com/AdityaDighe/YOLO-v8-Suspicious-Activity-Detection/assets/98305705/6a11e113-f073-4496-8451-9d5a51992f99)
+
+![image](https://github.com/AdityaDighe/YOLO-v8-Suspicious-Activity-Detection/assets/98305705/d880cd99-a684-424a-89ab-c0eea5a9e999)
+
+![image](https://github.com/AdityaDighe/YOLO-v8-Suspicious-Activity-Detection/assets/98305705/423fc008-c551-41c1-a674-a665ec398651)
+
+![image](https://github.com/AdityaDighe/YOLO-v8-Suspicious-Activity-Detection/assets/98305705/32af20df-1f55-41cc-aa74-d049f6a52b2a)
+
+
+
