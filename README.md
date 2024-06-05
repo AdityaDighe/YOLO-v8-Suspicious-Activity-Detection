@@ -1,5 +1,5 @@
 # Overview 
-Implementation of Computer Vision for Suspicious Activity Detection using YOLOv8 (You Only Look Once) in  OpenCV a computer vision library. This project involves the use YOLOv8 a pretrained object detection model and custom logic for the detection of suspicious elements in the video footage.
+Implementation of Computer Vision for Suspicious Activity Detection using YOLOv8(You Only Look Once) in  OpenCV a computer vision library. This project involves the use YOLOv8 a pretrained object detection model and custom logic for the detection of suspicious elements in the video footage.
 
 # User Interface and Implementation
 A StreamLit user interface is made based on python script to show the efficiency and working of the model by making the frontend user interface with it.
