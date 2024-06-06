@@ -35,7 +35,7 @@ This logic or part of the model is build by couting the no. of people in each re
 
 ![image](https://github.com/AdityaDighe/YOLO-v8-Suspicious-Activity-Detection/assets/98305705/298245d6-dbb8-4ff8-b032-cbf84e51ce89)
 
-# Hyperpapameter Tuning
+# Hyperparameter Tuning
 The model used for this project is YOLOv8, which is a pretrained object detection model trained on a particular dataset. For the specific requirement of adding parameter tuning, this image annotation is done on Roboflow as shown in the screenshots below to increase the accuracy of the system.
 
 ![image](https://github.com/AdityaDighe/YOLO-v8-Suspicious-Activity-Detection/assets/98305705/9a78adff-de58-45a6-90ee-bef54b84aa16)
